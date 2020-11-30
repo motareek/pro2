@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  
+  /* sec2 start */
+  .background-color {
+    background-color: rgb(240, 240, 240);
+  }
+  .sec1 {
+    display: flex;
+  }
+  .font {
+    position: relative;
+    width: 50%;
+  }
+  .font i {
+    position: absolute;
+    top: 50vh;
+    color: rgba(200, 0, 0, 0.5);
+    font-size: 10vw;
+  }
+  .font h1 {
+    position: absolute;
+    top: 18vh;
+    color: rgb(245, 121, 76);
+    font-size: 2.5vw;
+  }
+  .font p {
+    position: absolute;
+    top: 30vh;
+    color: rgb(68, 68, 68);
+    font-size: 1.2vw;
+    line-height: 2.5vw;
+    text-align: justify;
+    padding-right: 60px;
+  }
+  
+  .backgr-relative {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+      url(photo1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    height: 90vh;
+    position: relative;
+  }
+  .backgr-relative div {
+    text-align: center;
+    position: absolute;
+    bottom: 2vh;
+  }
+  .backgr-relative div img {
+    max-width: 25%;
+    height: 28vh;
+    margin: 0 0.8vw;
+    border: 4px solid rgba(255, 255, 255, 0.849);
+    transition: all 1s;
+  }
+  .backgr-relative div img:hover {
+    transform: scale(1.2,1.2);
+  }
+  
+  /* block-one css end */
+
+  
+  /* block-two css start */
+.margin {
+    margin-bottom: 10vh;
+  }
+  .sec2 .header {
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 20vh 0vw;
+  }
+  .sec2 .header h1 {
+    text-transform: capitalize;
+  }
+  .same {
+    display: flex;
+    text-transform: capitalize;
+  }
+  .same .card {
+    max-width: 30%;
+    margin: 0px 1.5vw;
+    background-color: rgba(240, 240, 240, 0.897);
+    padding: 1.5vw 1.5vw 0vw 1.5vw;
+  }
+  .same .card h2 {
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+  }
+  .same .card img {
+    width: 100%;
+    max-width: 100%;
+    height: 28vh;
+    border-radius: 10px;
+    transition: all 1s;
+  }
+  .same .card img:hover{ 
+    transform: scale(1.3,1.3);
+  }
+  
+  .same .card .author {
+    display: flex;
+    height: 13vh;
+  }
+  .same .card .author .image {
+    width: 20%;
+    height: 13vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .same .card .author .image img {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    justify-content: space-between;
+    border-radius: 50%
+  }
+  .same .card .author .details {
+    width: 80%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    color: rgb(53, 49, 49);
+  }
+  /* sec2 end */
